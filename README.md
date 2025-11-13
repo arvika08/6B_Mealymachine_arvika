@@ -8,13 +8,17 @@ Vivado 2023.1
 
 # Procedure
 
-Launch Vivado 2023.1 Open Vivado and create a new project.
-Design the Verilog Code Write the Verilog code for the RAM,ROM,FIFO
-Create the Testbench Write a testbench to simulate the memory behavior. The testbench should apply various and monitor the corresponding output.
-Create the Verilog Files Create both the design module and the testbench in the Vivado project.
-Run Simulation Run the behavioral simulation to verify the output.
-Observe the Waveforms Analyze the output waveforms in the simulation window, and verify that the correct read and write operation.
-Save and Document Results Capture screenshots of the waveform and save the simulation logs. These will be included in the lab report.
+Open Vivado and start a new Verilog project.
+
+Write the Mealy FSM Verilog code for detecting the sequence 1011.
+
+Create a testbench to apply different binary inputs.
+
+Simulate the design using Run Simulation → Behavioral Simulation.
+
+Observe that the output (out = 1) occurs immediately on the last bit of 1011.
+
+Record and save the waveform and result.
 
 # Code
 # Mealy 1011
